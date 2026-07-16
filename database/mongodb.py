@@ -4,7 +4,7 @@ try:
     MONGO_URI = "mongodb+srv://sp6345607_db_user:CJWMNRaLVuXaTJzM@cluster0.ckknkxv.mongodb.net/?appName=Cluster0"
     client = MongoClient(MONGO_URI)
     client.admin.command("ping")
-    db = client["ssus"]
+    db = client["ssus123"]
     students_collection = db["students"]
     marks_collection = db["marks"]
     attendance_collection = db["attendance"]
